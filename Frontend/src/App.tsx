@@ -8,7 +8,15 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-        
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Home />
+              </Layout>
+            }
+          />
+
         </Routes>
       </BrowserRouter>{" "}
     </>
