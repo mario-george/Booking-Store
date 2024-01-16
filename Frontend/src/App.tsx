@@ -17,6 +17,7 @@ function App() {
             }
           />
 
+          <Route path="/login" element={<Layout>Sign In </Layout>} />
         </Routes>
       </BrowserRouter>{" "}
     </>
